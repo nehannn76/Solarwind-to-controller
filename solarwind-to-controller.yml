@@ -1,0 +1,7 @@
+---
+ -hosts: source
+ tasks:
+  -name: Transfer file from SolarWind to Win03
+   fetch:
+    src: C:\Monitoring Agent\Windows\SolarWinds-Agent
+    dest: /home/na
